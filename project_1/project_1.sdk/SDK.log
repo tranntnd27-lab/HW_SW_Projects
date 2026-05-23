@@ -1,0 +1,14 @@
+13:57:08 INFO  : Registering command handlers for SDK TCF services
+13:57:08 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\tri\Documents\HK1NAM4\HWSW\project\project_1\project_1.sdk\temp_xsdb_launch_script.tcl
+13:57:11 INFO  : XSCT server has started successfully.
+13:57:19 INFO  : Successfully done setting XSCT server connection channel  
+13:57:19 INFO  : Processing command line option -hwspec C:/Users/tri/Documents/HK1NAM4/HWSW/project/project_1/project_1.sdk/first_zynq_system_wrapper.hdf.
+13:57:19 INFO  : Successfully done setting SDK workspace  
+14:16:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:04:05 INFO  : Registering command handlers for SDK TCF services
+09:04:06 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\tri\Documents\HK1NAM4\HWSW\project\project_1\project_1.sdk\temp_xsdb_launch_script.tcl
+09:04:09 INFO  : XSCT server has started successfully.
+09:04:14 INFO  : Successfully done setting XSCT server connection channel  
+09:04:14 INFO  : Processing command line option -hwspec C:/Users/tri/Documents/HK1NAM4/HWSW/project/project_1/project_1.sdk/first_zynq_system_wrapper.hdf.
+09:04:14 INFO  : Successfully done setting SDK workspace  
+09:04:14 INFO  : Checking for hwspec changes in the project first_zynq_system_wrapper_hw_platform_0.

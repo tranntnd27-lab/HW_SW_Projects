@@ -1,0 +1,33 @@
+#include "xparameters.h"
+#include "xgpio.h"
+#include <stdio.h>
+#include <unistd.h>
+
+int main(void)
+{
+    XGpio push;
+    int statusPush;
+    int psb_check;
+
+    xil_printf("\t-- Start of the Program --\r\n");
+
+
+    statusPush = XGpio_Initialize(&push, XPAR_AXI_GPIO_0_DEVICE_ID);
+    if(statusPush == XST_SUCCESS)
+        print("XGpio_Initialize(PushButton) = Success\n\r");
+    else
+    {
+        print("XGpio_Initialize(PushButton) = Failed\n\r");
+        return XST_FAILURE;
+    }
+
+
+    XGpio_SetDataDirection(&push, 1, 0xFFFFFFFF);
+
+    while(1)
+    {
+        psb_check = XGpio_DiscreteRead(&push, 1);
+        xil_printf("Push Buttons Status 0x%02X\r\n", psb_check);
+        sleep(1);
+    }
+}
