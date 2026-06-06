@@ -1,0 +1,7 @@
+<annotationInfo>
+<annotationInfo>
+<item  id="14" filename="../zynq-book-master/hls_nco/nco.cpp" linenumber="430" name="p_Val2_1" contextFuncName="nco" moduleName="nco" rtlName="p_Val2_1_fu_67_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="23" fileDirectory="C:\Users\tri\Documents\HK1NAM4\HWSW\project"><\/item>
+<item  id="16" filename="../zynq-book-master/hls_nco/nco.cpp" linenumber="432" name="address_V" contextFuncName="nco" moduleName="nco" rtlName="address_V_fu_79_p4" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="C:\Users\tri\Documents\HK1NAM4\HWSW\project"><\/item>
+<item  id="17" filename="../zynq-book-master/hls_nco/nco.cpp" linenumber="434" name="zext_ln434" contextFuncName="nco" moduleName="nco" rtlName="zext_ln434_fu_89_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="C:\Users\tri\Documents\HK1NAM4\HWSW\project"><\/item>
+<\/annotationInfo>
+</annotationInfo>

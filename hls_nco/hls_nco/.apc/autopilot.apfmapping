@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="nco.cpp" path="C:\Users\tri\Documents\HK1NAM4\HWSW\zynq-book-master\hls_nco\nco.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="nco_tb.cpp" path="C:\Users\tri\Documents\HK1NAM4\HWSW\zynq-book-master\hls_nco\nco_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
